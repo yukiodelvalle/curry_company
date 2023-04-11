@@ -71,7 +71,7 @@ def top_delivers(df, top_asc):
 
 
 #import Dataset
-df_raw = pd.read_csv('../dataset/dataframe/train.csv')
+df_raw = pd.read_csv('../curry_company/dataframe/train.csv')
 
 #cópia dos dados
 df = clean_code(df_raw)
