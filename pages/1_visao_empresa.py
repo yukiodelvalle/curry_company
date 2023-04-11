@@ -100,7 +100,7 @@ def country_maps(df):
 #_________________________Inicio Estrutura de Código_______________________#
 #==========================================================================#
 #impor Dataframe
-df_raw = pd.read_csv('../dataset/dataframe/train.csv')
+df_raw = pd.read_csv('../curry_company/dataframe/train.csv')
 
 #limpeza de dados
 df = clean_code(df_raw)
