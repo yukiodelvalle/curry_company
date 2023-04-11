@@ -108,7 +108,7 @@ def avg_std_time_traffic(df):
     return fig
 
 #importação dataset
-df_raw = pd.read_csv('../dataset/dataframe/train.csv')
+df_raw = pd.read_csv('../curry_company/dataframe/train.csv')
 
 #limpeza dataset
 df = clean_code(df_raw)
